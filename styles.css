@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.topico {
+  max-width: 250px;
+  background-color: #CCCCCC;
+  background-color: rgba(204,204,204,0.8);
+}
+
+.controls {
+  z-index: 0;
+  padding-top: 20rem;
+}
+
+.sidebar
+{
+  z-index: 0;
+  padding-top: 5rem;
+}
+
+.conteudo {
+  padding-top: 5rem;
+}
+
+.fixed-bg {
+  background-image: url("resource/Background5.jpg");
+
+  /* Set a specified height, or the minimum height for the background image */
+  /* min-height: 500px; */
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.transp-gray {
+  background-color: #CCCCCC;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.item-manual::before {
+display: block;
+content: " ";
+margin-top: -65px;
+height: 65px;
+visibility: hidden;
+}
+
+.p-top {
+  padding-top: 5rem;
+}
